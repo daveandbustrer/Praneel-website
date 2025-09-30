@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+*{
+    /* position: fixed; */
+    box-sizing: border-box;
+}
+h1{
+    position: fixed;
+    text-align:center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium';
+    background-color: bisque;
+    height: 10.25%;
+    width: 100%;
+    top:-2.5%;
+}
+nav{
+    position: fixed;
+    background-color: gray;
+    color: white;
+    font-size: large;
+    float: left;
+    height: 100vh;
+    width: 10%;
+    left: 0;
+    margin: 0%;
+    top: 10%;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+.link{
+    width: 90%;
+    height: 100%;
+    font-size: x-large;
+    font-family: cursive;
+    background-color: lightgray;
+    margin: 5%;
+}
+.link:hover{
+    background-color: grey;
+}
+footer{
+    position:fixed;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    background-color: lightgray;
+    font-size: x-large;
+}
+article{
+    text-align: left;
+    margin-top: 4.8%;
+    margin-left: 10%;
+    padding-left: 0.5%;
+    font-size:x-large;
+    background-color: blanchedalmond;
+    height: fit-content;
+    background-position-x: left;
+}
