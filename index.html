@@ -7,7 +7,7 @@
     </head>
     <body>
      <header>
-  <h1>main page</h1>
+  <h1 id="test">main page</h1>
   <br>
   <h1 style="margin-top:5%;"> the main page of praneel's website for everthing</h1>
 </header>
@@ -15,12 +15,17 @@
   <nav>
     <ul>
       <li><a href="praneel's about me page/index.html"><button class="link">about me</button></a></li>
+      <li><a href="#"><button class="link" onclick="document.getElementById('test').innerHTML= 'coming soon'; setTimeout(()=>{document.getElementById('test').innerHTML= 'Main page'},1000)">projects</button></a></li>
     </ul>
   </nav>
 
   
   <article>
-    <img id="img1" alt="plachholder images""> 
+    <img class="sliding-img" alt="plachholder images"> 
+    <img class="sliding-img" alt="placholder images" style="left:-40%; animation-delay: 2.5s;">
+    <img class="sliding-img" alt="placholder images" style="left:-40%; animation-delay: 5s;">
+    <img class="sliding-img" alt="placholder images" style="left:-40%; animation-delay: 7.5s;">
+    <img class="sliding-img" alt="placholder images" style="left:-40%; animation-delay: 10s;">
   </article>
 <footer>
   <p>by:praneel</p>
